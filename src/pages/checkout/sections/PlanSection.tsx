@@ -33,7 +33,11 @@ const PlanSection = () => {
           }
           justifyContent="center"
         >
-          <ContentWrapper width="22rem" flexDirection="column">
+          <ContentWrapper
+            margin="0 1.5rem"
+            width="22rem"
+            flexDirection="column"
+          >
             <HeadingH3 marginBottom="1rem">
               Choose your plan and get{" "}
               <TextWrapper color={orange}> 7 days free trial</TextWrapper>
