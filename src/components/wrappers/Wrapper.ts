@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { white, yellow } from "../../styles/colors";
+import { white, blue } from "../../styles/colors";
 
 interface Styles {
   alignItems?: string;
@@ -29,7 +29,7 @@ export const HeaderWrapper = styled.div`
 
 export const HeaderSectionWrapper = styled.div`
   width: 100%;
-  background: ${yellow};
+  background: ${blue};
   height: 3.5rem;
 `;
 export const CenterContentWrapper = styled(FlexWrapper)`

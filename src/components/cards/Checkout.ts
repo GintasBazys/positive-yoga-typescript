@@ -1,6 +1,6 @@
 import { FlexWrapper } from "components";
 import styled from "styled-components";
-import { orange } from "styles/colors";
+import { orange, yellow } from "styles/colors";
 
 export const CheckoutBlock = styled.div`
   padding: 1rem;
@@ -25,7 +25,7 @@ export const PricingTitleAndDiscount = styled(FlexWrapper)``;
 export const PricingDiscount = styled(FlexWrapper)`
   width: 4.813rem;
   height: 1.5rem;
-  background: #ffe082;
+  background: ${yellow};
   border-radius: 0.375rem;
 `;
 
